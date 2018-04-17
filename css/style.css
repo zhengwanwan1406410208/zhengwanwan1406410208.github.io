@@ -1,0 +1,103 @@
+*{
+    outline: none !important;
+}
+html{
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+    background: #f5f5f5;
+}
+body{
+    background: #f5f5f5;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+#wrapper{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.topbar{
+    -webkit-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.2);
+    left: 0px;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    z-index: 999;
+}
+.topbar .topbar-left {
+    background-color: #eeeeee;
+    float: left;
+    height: 70px;
+    position: relative;
+    width: 240px;
+    z-index: 1;
+}
+.logo{
+    color: #212121 !important;
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 70px;
+    /*text-transform: uppercase;*/
+}
+.logo i{
+    color: #ee6e73;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.md{
+    line-height: inherit;
+    vertical-align: bottom;
+}
+.md-terrain{
+    display: inline-block;
+    text-rendering: auto;
+}
+.md-terrain::before {
+    content: "\f290";
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+}
+.container{
+    width: auto;
+}
+.button-menu-mobile {
+    background: transparent;
+    border: none;
+    color: #888888;
+    font-size: 21px;
+    line-height: 70px;
+    padding: 0px 15px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-bars::before {
+    content: "\f0c9";
+}
+.navbar-form{
+    border:none;
+    box-shadow: none;
+    padding:0;
+}
+.search-bar {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #212121;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 3px;
+}

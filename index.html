@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-   <!-- <link href="assets/plugins/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="./css/style.css">-->
     <link href="./css/core.css" rel="stylesheet" type="text/css">
     <link href="./css/components.css" rel="stylesheet" type="text/css">
     <link href="./css/pages.css" rel="stylesheet" type="text/css">
@@ -15,19 +13,7 @@
     <link rel="stylesheet" href="./css/icons.css">
     <script src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
-    <!--<script src="./js/echarts.min.js"></script>-->
     <!--table-->
-    <link rel="stylesheet" href="./css/magnific-popup.css">
-    <link rel="stylesheet" href="./css/datatables.css">
-    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
-    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
-
 </head>
 <body class="fixed-left">
 <div id="wrapper">
@@ -219,10 +205,7 @@
     <!-- Left Sidebar End -->
     <div class="content-page">
         <div class="content">
-            <div class="inner">
-
-            </div>
-            <!--<iframe src="./html/main.html"  frameborder="0"  name="tt" id="ttname"  width="100%" scrolling="auto" onload="selfheight();"></iframe>-->
+  <iframe src="./html/main.html"  frameborder="0"  name="tt" id="ttname"  width="100%" scrolling="auto" onload="selfheight();"></iframe>
             <footer class="footer text-center">
                 2018 © zww
             </footer>
@@ -243,87 +226,4 @@
      window.onresize=function(){
          selfheight();
      }
-     $(function () {
-
-             $.ajax({
-                 url:"./html/main.html",
-                 type:"post",
-                 dataType:"html",
-                 async:false,
-                 success:function (data) {
-                     $(".inner").html(data);
-                 }
-             });
-
-         $(".form-va").click(function () {
-             if(!$(this).parent().hasClass("active")){
-                 $.ajax({
-                     url:"./html/form-va.html",
-                     type:"post",
-                     dataType:"html",
-                     async:false,
-                     success:function (data) {
-                         $(".inner").html(data);
-                     }
-                 });
-             }else{
-                 return;
-             }
-         });
-         $(".edittab").click(function () {
-             if(!$(this).parent().hasClass("active")){
-                 $.ajax({
-                     url:"./html/edittable.html",
-                     type:"post",
-                     dataType:"html",
-                     async:false,
-                     success:function (data) {
-                         $(".inner").html(data);
-                     }
-                 });
-             }else{
-                 return;
-             }
-         });
-         $(".chartone").click(function () {
-             if(!$(this).parent().hasClass("active")){
-                 $.ajax({
-                     url:"./html/charts.html",
-                     type:"post",
-                     dataType:"html",
-                     async:false,
-                     success:function (data) {
-                         $(".inner").html(data);
-                     }
-                 });
-             }else{
-                 return;
-             }
-             firstchart();
-         });
-         $(".charttwo").click(function () {
-             if(!$(this).parent().hasClass("active")){
-                 $.ajax({
-                     url:"./html/chartjs.html",
-                     type:"post",
-                     dataType:"html",
-                     async:false,
-                     success:function (data) {
-                         $(".inner").html(data);
-                     }
-                 });
-             }else{
-                 return;
-             }
-             charttwo();
-         });
-     })
-</script>
-<script src="./js/dashecharts.js"></script>
-<script src="./js/maincharts.js"></script>
-<script src="./js/charttwo.js"></script>
-<!--<script src="./js/jquery.magnific-popup.min.js"></script>
-<script src="./js/jquery.dataTables.js"></script>
-<script src="./js/dataTables.bootstrap.js"></script>
-<script src="./js/datatables.editable.init.js"></script>-->
 </html>

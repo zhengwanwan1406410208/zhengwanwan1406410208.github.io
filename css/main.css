@@ -4,8 +4,13 @@ html,body{
 img.md{
     width:70px;
 }
+#detail{
+    padding-top: 70px;
+    margin-top: -70px;
+}
 div#kill {
-    background: #eee;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 span.zw_all {
     display: block;
@@ -16,6 +21,7 @@ span.zw_all {
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #eee;
 }
 .gid{
     width: 100%;
@@ -23,14 +29,15 @@ span.zw_all {
     max-height: 395px;
 }
 #work{
-    padding: 20px;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 #eduction{
-    background: #eee;
-    padding: 20px;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 .row.backc {
-    background: #eee;
+
 }
 .letter{
     padding-bottom:50px;
@@ -77,7 +84,7 @@ span.zw_all {
     background-color: #e2adda;
 }
 .enjoy {
-    padding: 20px;
+    padding-top: 30px;
 }
 .enjoy p{
     margin:0 !important;
